@@ -4,7 +4,7 @@ library(readxl)
 library(pscl)
 library(tidyr)
 
-df <- read_excel('/Users/piya/Research/Mount Usu/Excel/Seed_bank_data.xlsx', sheet = 'GM_FM_combined')
+df <- read_excel('Seed_bank_data.xlsx', sheet = 'GM_FM_combined')
 
 
 ###################### Zero Inflated Model ###################
